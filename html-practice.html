@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice (Group)</title>
+</head>
+<body>
+    <!-- 1.1 HTML Structure -->
+     <!--
+        <!DOCTYPE> -> declere the document type
+        <html> -> the root elemnt (start and the end of web page)
+        <head> -> has meta data , links and its data don't appear on the web page
+        <body> -> contains the content of the web page
+     -->
+
+    <!--1.2 HTML Elements / Attributes-->
+     <!--
+        Element -> building block 
+        Attribute -> additional data placed inside openinig tag    
+     -->   
+    <img src="../HTML-Tasks/images/cat.webp" alt="this is a cat photo">
+    <a  href="www.google.com" class="google" id="goole">google</a> 
+   
+    <!--1.3 HTML Headings-->
+     <!--
+        h1-h6 -> for headings and titles
+     -->
+        <h1>main title</h1>
+        <h2>subtitle</h2>
+        <h3>section title</h3>
+        <h4>this is h4</h4>
+        <h5>this is h5</h5>
+        <h6>this is h6</h6>
+    
+
+    <!--1.4 HTML Paragraphs-->
+     <!--
+      <p> -> container for paragraph
+      <br> -> new line
+     -->
+     <p>this is paragraph</p>
+     <br>
+
+    <!--1.5 HTML Text Formatting-->
+     <!--
+      <b> -> bold
+      <strong> -> bold semantic
+      <i> -> italic 
+      <em> -> italic semantic
+      semantic ->  enhance accessibility and SEO.
+      non-semantic -> only for vsiual 
+     -->
+
+    <!--1.6 Inline vs Block Elements-->
+     <!--
+      Block elements -> element take the full width , and start a new line <div>
+      Inline elements -> elemenr take width that needs , dose not start a new line <span>
+      difference -> inline set side by side , block set verticlly
+     -->
+     <!--the end of module 1-->
+
+
+
+    <!--module 2 start-->
+
+    <!--2.1 Meta Tags-->
+     <!--
+     <title> -> define the title of the html doc
+     <meta> -> provide data about html doc
+     <link> -> tag connect the folder with external rescource
+     -->
+
+    <!--2.2 HTML Comments-->
+     <!--
+      comment  -> content that dose not displayed on the browser
+      why comments are used -> used for explain , hide sections , devide sections
+     -->
+
+    <!--2.3 Formatting Tags-->
+     <!--
+      <b> -> bold non-sem
+      <strong> -> bold sem , important 
+      <i> -> italic non-sem
+      <em> -> emphazed , italic sem
+      <mark> -> hilighted
+      <small> -> smaller text
+      <del> -> strikethrough
+      <ins> -> inderlined
+      <sub> -> subscript
+      <sup> -> superscript
+     -->
+        <div>
+            <h2>examples for formating tags</h2>
+            <p><b>bold text</b></p>
+            <p><strong>strong text</strong></p>
+            <p><i>itlaic text</i></p>
+            <p><em>emphazed texr</em></p>
+            <p><mark>mark text</mark></p>
+            <p><small>small text</small></p>
+            <p><del>deleted text</del></p>
+            <p><ins>underlined text</ins></p>
+            <p><sub>subsecripted</sub> text</p>
+            <p><sup>superscripted</sup> text</p>
+        </div>
+    
+    <!--2.4 Structural Tags-->
+     <!--
+      <hr> -> horizantel line
+      <pre> -> preserves spaces and line breaks
+     -->
+        <p>one</p>
+        <hr>
+        <p>two</p>
+        <pre>
+            function helloWorld() {
+                console.log("Hello World");
+                                  }
+        </pre>
+
+    <!--the end of module 2-->
+
+    <!--module 3-->
+    <!--3.1 Audio Element-->
+     <!--
+      <audio> -> dispaly audio into page
+      controls -> add controls for audio bar
+      autoplay -> autoplay when render the page
+      muted -> paly muted without sound
+      loop -> replay when its over
+     -->
+      <audio src="anysound.com" autoplay controls muted loop></audio>
+    
+    <!--3.2 Video Element-->
+     <!--
+      <video> -> dispaly video into page
+      controls -> add video controls attributes
+     -->
+      <video src="../HTML-Tasks/images/nature.mp4" controls ></video>
+    
+    <!--3.3 iframe-->
+     <!--
+      <iframe> -> loads another page within current page 
+      width -> define the width for frame
+      height -> define the hight for the frame
+      src -> source link for the frame
+      -->
+      <iframe src="https://youtu.be/XBTk4hQvgG0?si=J8belgguolybfTuP" frameborder="0" height="300" width="400"></iframe>
+    
+    <!--the end of module 3-->
+    <!--module 4-->
+    <!--4.1 Input Types-->
+     <!--
+      text -> text box
+      password -> password box (dispalyed as dots)
+      email -> email box (email formated)
+      number -> numeric inputs
+      date -> date inputs
+      radio -> selecting one option
+      checkbox -> selecting multi options
+      file -> upload file 
+    -->
+    
+  <input type="text" name="username" placeholder="Enter Username"><br>
+  
+  <input type="password" name="pass" placeholder="Enter Password"><br>
+  
+  <input type="email" name="user_email" placeholder="Enter Email"><br>
+  
+  <input type="number" name="number" ><br>
+  
+  <input type="date" name="date"><br>
+  
+  <input type="radio" id="html" name="language" value="HTML">
+  <label for="html">HTML</label>
+  <input type="radio" id="css" name="language" value="CSS">
+  <label for="css">CSS</label><br>
+  
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="car">
+  <label for="vehicle1">Car</label><br>
+  
+  <input type="file" id="file" name="file">
+  <!--end of module4-->
+  <!--module 5-->
+  <!--5.1 Common Attributes-->
+    <!--
+     href -> specifies the url of the page the link goes to
+     src ->  the source of of path or url that should be embedded
+     width -> specifies the width
+     height -> specifies the width
+    -->
+    <!--5.2 Block vs Inline-->
+     <!--
+      <div> -> container, block element 
+      <span> -> container , inline element
+     -->
+        <div>this is div</div>
+        <p>break</p>
+        <span>this is span</span>
+        <p>break</p>
+
+    <!--5.3 Semantic HTML-->
+     <!--
+      <header> -> represent the intro content
+      <nav> ->  represent the navegation bar
+      <section> -> represent a group of content
+      <article> -> represent a piece of content
+      <aside> -> represent a content around
+      <footer> -> represent the footer of the doc root
+     -->
+    <!--5.4 Accessibility and Readability-->
+     <!--
+      why semantic HTML is important -> Maintainability , enhance SEO
+      accessibility benefits -> navegate
+     -->
+      <header>
+    <h1>navegate test</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+        <section id="articles">
+            <h2>test article</h2>
+            <article>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br>Ullam iste, aliquid voluptates quas architecto exercitationem minus dicta iure totam eius eum quod unde obcaecati odio veniam fugiat at consequatur?  <br><br><br>Harum.</p>
+            </article>
+        </section>
+        <section id="contact">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia autem illum eum dignissimos quo officia voluptatem expedita alias unde similique recusandae dolor odio accusamus impedit, nesciunt officiis fugiat illo dolores.</p>
+        </section>
+    </main>
+    <!--the end of module 5-->
+</body>
+</html>
